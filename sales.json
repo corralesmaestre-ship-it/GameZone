@@ -1,0 +1,19 @@
+[
+  {
+    "id": "V-001",
+    "videoGame": {
+      "condition": "nuevo",
+      "distributor": "sony",
+      "title": "Gta 5",
+      "price": 50000.0,
+      "platform": "ps5",
+      "stock": 7,
+      "genre": "accion",
+      "gameType": "physical"
+    },
+    "quantity": 3,
+    "unitPrice": 50000.0,
+    "total": 150000.0,
+    "saleDate": "2026-06-06T09:51:52.9912044"
+  }
+]

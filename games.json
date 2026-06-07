@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "nuevo",
+    "distributor": "sony",
+    "title": "Gta 5",
+    "price": 50000.0,
+    "platform": "ps5",
+    "stock": 7,
+    "genre": "accion"
+  },
+  {
+    "condition": "nuevo",
+    "distributor": "Garena",
+    "title": "free fire",
+    "price": 150000.0,
+    "platform": "movil",
+    "stock": 10,
+    "genre": "Plomo"
+  }
+]

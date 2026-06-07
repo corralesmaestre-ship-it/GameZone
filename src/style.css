@@ -1,0 +1,170 @@
+/* Estilo Personalizado para el Proyecto GameZone (Tema: Teal & Coral - Versión Alternativa) */
+
+.root {
+    -fx-font-family: "Lucida Sans Unicode", "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #FDFBF7; /* Fondo arena suave */
+    -fx-text-fill: #2B2D42; /* Texto gris oscuro */
+}
+
+/* TabPane Styling */
+.tab-pane {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 8;
+}
+
+.tab {
+    -fx-background-color: #E8E8E4;
+    -fx-background-radius: 6 6 0 0;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.tab:selected {
+    -fx-background-color: #008080; /* Teal/Azul verdoso */
+    -fx-text-fill: #FFFFFF;
+}
+
+.tab .tab-label {
+    -fx-text-fill: #4A4E69;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #FFFFFF;
+}
+
+/* Paneles de Contenido */
+.content-pane {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 22;
+    -fx-border-color: #D8E2DC;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 6;
+}
+
+/* Títulos y Subtítulos */
+.title-label {
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1D3557;
+    -fx-padding: 0 0 4 0;
+}
+
+.subtitle-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #8D99AE;
+    -fx-padding: 0 0 16 0;
+}
+
+/* Tarjetas Simples para el Dashboard */
+.stat-card {
+    -fx-background-color: #F7F7F9;
+    -fx-border-color: #D8E2DC;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 6;
+    -fx-padding: 16;
+    -fx-pref-width: 210;
+    -fx-pref-height: 85;
+    -fx-alignment: center-left;
+}
+
+.stat-title {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8D99AE;
+}
+
+.stat-value {
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #008080;
+}
+
+/* Campos de texto y selectores */
+.text-field, .combo-box {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #C5C3C6;
+    -fx-border-radius: 4;
+    -fx-padding: 7;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #008080;
+}
+
+/* Botones estándar */
+.btn {
+    -fx-padding: 7 14 7 14;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.btn-primary {
+    -fx-background-color: #008080; /* Teal */
+}
+.btn-primary:hover {
+    -fx-background-color: #005F5F;
+}
+
+.btn-success {
+    -fx-background-color: #E07A5F; /* Coral */
+}
+.btn-success:hover {
+    -fx-background-color: #C66045;
+}
+
+.btn-danger {
+    -fx-background-color: #D90429;
+}
+.btn-danger:hover {
+    -fx-background-color: #B3001B;
+}
+
+.btn-warning {
+    -fx-background-color: #F4A261;
+    -fx-text-fill: #2B2D42;
+}
+.btn-warning:hover {
+    -fx-background-color: #E76F51;
+}
+
+.btn-secondary {
+    -fx-background-color: #4A4E69;
+}
+.btn-secondary:hover {
+    -fx-background-color: #22223B;
+}
+
+/* Tablas sencillas */
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #D8E2DC;
+}
+
+.table-view .column-header {
+    -fx-background-color: #F1FAEE;
+    -fx-border-color: #D8E2DC;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #1D3557;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: #FFFFFF;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #F8F9FA;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #008080;
+}
+
+.table-row-cell:selected .label {
+    -fx-text-fill: #FFFFFF;
+}
